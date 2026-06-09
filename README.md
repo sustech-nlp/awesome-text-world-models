@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![arXiv](https://img.shields.io/badge/arXiv-Survey-b31b1b.svg)](https://arxiv.org)
+[![arXiv](https://img.shields.io/badge/arXiv-Survey-b31b1b.svg)](https://arxiv.org/abs/2606.09032)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/pulls)
 
 A curated list of papers on **Text World Models (TWMs)** for LLM-based agents — transition models over *textual* states that, given a state and a candidate action, predict the resulting webpage, terminal output, API response, or user reply, thereby supporting planning, efficient learning, and principled evaluation.
@@ -20,14 +20,22 @@ This list accompanies our survey ***[Bridging the Agent-World Gap: Text World Mo
 📃**Please cite our paper** if you find our survey or repository helpful!
 
 ```bibtex
-@article{li2026textworldmodels,
-  title   = {Bridging the Agent-World Gap: Text World Models for LLM-based Agents},
-  author  = {Li, Yixia and Wang, Hongru and Lai, Peng and Ruan, Zhiwen and Zhu, He and
-             Zhu, Youxin and Zhao, Ganlong and Hu, Minda and Chen, Yun and Yang, Sibei and
-             Li, Peng and Pan, Jeff Z. and Pan, Jia and Chen, Guanhua and Liu, Yang and Li, Guanbin},
-  year    = {2026}
+@misc{li2026textworldmodels,
+      title={Bridging the Agent-World Gap: Text World Models for LLM-based Agents},
+      author={Yixia Li and Hongru Wang and Peng Lai and Zhiwen Ruan and He Zhu and Youxin Zhu and Ganlong Zhao and Minda Hu and Yun Chen and Sibei Yang and Peng Li and Jeff Z. Pan and Jia Pan and Guanhua Chen and Yang Liu and Guanbin Li},
+      year={2026},
+      eprint={2606.09032},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.09032},
 }
 ```
+
+---
+
+## 📰 News
+
+- **[2026/06]** 🎉 Our survey paper is now available on arXiv: [Bridging the Agent-World Gap: Text World Models for LLM-based Agents](https://arxiv.org/abs/2606.09032)!
 
 ---
 
@@ -281,12 +289,14 @@ Studying how faithfully a world-model simulator reflects the real environment or
 If you find this survey and repository useful for your research, please consider citing:
 
 ```bibtex
-@article{li2026textworldmodels,
-  title   = {Bridging the Agent-World Gap: Text World Models for LLM-based Agents},
-  author  = {Li, Yixia and Wang, Hongru and Lai, Peng and Ruan, Zhiwen and Zhu, He and
-             Zhu, Youxin and Zhao, Ganlong and Hu, Minda and Chen, Yun and Yang, Sibei and
-             Li, Peng and Pan, Jeff Z. and Pan, Jia and Chen, Guanhua and Liu, Yang and Li, Guanbin},
-  year    = {2026}
+@misc{li2026textworldmodels,
+      title={Bridging the Agent-World Gap: Text World Models for LLM-based Agents},
+      author={Yixia Li and Hongru Wang and Peng Lai and Zhiwen Ruan and He Zhu and Youxin Zhu and Ganlong Zhao and Minda Hu and Yun Chen and Sibei Yang and Peng Li and Jeff Z. Pan and Jia Pan and Guanhua Chen and Yang Liu and Guanbin Li},
+      year={2026},
+      eprint={2606.09032},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.09032},
 }
 ```
 
